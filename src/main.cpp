@@ -1,5 +1,5 @@
 //#include <Arduino.h>
-// https://mysku.ru/blog/aliexpress/34220.html
+// https://mysku.ru/blog/aliexpress/34220.html хорошая статья
 #define F_CPU 1200000UL // Указываем тактовую частоту МК
 #define LED PB3         // Используем светодиод, подключенный к PB2 (7 пин)
 #include <avr/io.h>     // Подключаем определения ввода/вывода
