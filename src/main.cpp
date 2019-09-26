@@ -3,6 +3,8 @@
 #include <avr/sleep.h> // здесь описаны режимы сна
 #include <avr/interrupt.h> // работа с прерываниями
 
+// http://www.count-zero.ru/2016/attiny13/
+
 volatile uint8_t i;
 ISR (WDT_vect) {
  if ((++i%4) == 0)
